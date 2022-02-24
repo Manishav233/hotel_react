@@ -1,0 +1,35 @@
+.card{
+margin:20px;
+border-radius:10px;
+overflow:hidden;
+box-shadow: 3px 3px grey;
+transition: transform all;
+cursor: pointer;
+}
+
+.card:hover{
+transform:scale(1.1);
+}
+
+.card>img{
+object-fit:fill;
+min-width:300px;
+height: 250px;
+width:100%;}
+
+.card-info{
+margin-top:10px;
+border-radius:10px;
+padding:20px;
+border:2px solid grey;
+}
+
+.card-info>h2{
+font-size:18px;
+font-weight: bold;
+}
+
+.card-info>h4{
+    font-size:14px;
+    font-weight: bold;
+    }

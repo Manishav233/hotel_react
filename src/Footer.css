@@ -1,0 +1,13 @@
+.Footer{
+border-top:2px solid grey;
+margin-top:400px;
+padding:2px;
+background-color: thistle;
+text-align:center;
+position: static;
+}
+
+.Footer>p{
+margin-top: 10px;
+margin-bottom: 10px;
+font-size:12px;}

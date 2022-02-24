@@ -1,0 +1,42 @@
+.Header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+position: sticky;
+top:0;
+background-color: rgb(218, 209, 209);
+width:100%;
+padding:10px;
+}
+
+.header_icon{
+    height:100px;
+    width:170px;
+    object-fit:content;
+    }
+    
+    .header_center{
+    display: flex;
+    align-items: center;
+    border:2px solid rgb(85, 79, 79);
+    border-radius: 100px;
+    max-width: fit-content;
+    flex:1;
+    
+    }
+    
+    .header_right{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    }
+    
+    .header_center>input{
+    border:none;
+    background-color: transparent;
+    outline: none;
+    width:100%;
+    padding:10px;
+    font-size:1rem;
+    }
